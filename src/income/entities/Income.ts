@@ -7,8 +7,21 @@ export class Income {
   @Column({nullable:true})
   source:string
     @Column()
-  amount:string
+  amount:number
   @Column({ nullable: true })
-  type: string;
+  type: string ;
+  @Column()
+  createdAt:Date
+
+  @Column({nullable:true})
+  updatedAt: Date;
+
+
+
+}
+
+const enum Type {
+    INCOME ='INCOME',
+    EXPENSE ='EXPENSE'
 
 }

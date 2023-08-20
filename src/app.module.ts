@@ -13,7 +13,7 @@ import { Income } from "./income/entities/Income";
       port: 3306,
       username: 'root',
       password: 'root',
-      database: 'expense',
+      database: 'test2',
       entities: [Income],
       synchronize: true,
     }),
