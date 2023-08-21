@@ -1,8 +1,8 @@
 import { ApiProperty } from "@nestjs/swagger";
 
 
-export class SearchReportDto {
+export class SearchIncomeDto {
   @ApiProperty({required:false})
-  type:string
+  searchType:string
 
 }
